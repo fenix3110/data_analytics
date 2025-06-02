@@ -1,0 +1,107 @@
+# === Python bytecode and compiled files ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === C extensions ===
+*.so
+
+# === Virtual environments ===
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Lib/
+bin/
+Include/
+
+# === Virtual environments in parent directory ===
+../env/
+../venv/
+../Lib/
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === mypy ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === Pyre type checker ===
+.pyre/
+
+# === Pytest ===
+.pytest_cache/
+pytestdebug.log
+
+# === Coverage reports ===
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# === Packaging ===
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === IDEs and Editors ===
+# PyCharm
+.idea/
+# VS Code
+.vscode/
+.code-workspace
+# Spyder
+.spyderproject
+.spyderworkspace
+# Rope
+.ropeproject
+
+# === Logs and secrets ===
+*.log
+*.env
+.env.local
+.env.*.local
+secrets.*
+credentials.*
+
+# === OS-specific ===
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Temporary files ===
+*.swp
+*.bak
+*.tmp
+*.orig
+*.~*
+*.out
+
+# === Docker / DevOps ===
+docker-compose.override.yml
+.history/
